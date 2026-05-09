@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use MedEd-HalluScore, please cite it using this metadata."
 title: "MedEd-HalluScore: A Practical Framework for Evaluating Hallucination and Educational Safety Risks in LLM-Generated Clinical Cases"
-version: "0.1.0"
+version: "0.1.1"
 date-released: "2026-05-09"
 authors:
   - family-names: "Duarte"
@@ -15,5 +15,6 @@ keywords:
   - clinical reasoning
   - educational safety
 license: MIT
-repository-code: "https://github.com/douglasduarte/meded-halluscore"
-
+doi: "10.5281/zenodo.20100688"
+repository-code: "https://github.com/Douglas360/meded-halluscore"
+url: "https://doi.org/10.5281/zenodo.20100688"

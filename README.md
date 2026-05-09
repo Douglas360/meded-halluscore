@@ -1,5 +1,7 @@
 # MedEd-HalluScore
 
+[![DOI](https://zenodo.org/badge/1234159649.svg)](https://doi.org/10.5281/zenodo.20100687)
+
 MedEd-HalluScore is an open-source evaluation framework for assessing hallucination and educational safety risks in LLM-generated clinical cases for medical education.
 
 The framework provides a practical rubric, reviewer templates, sample annotated cases, and a simple calculator for scoring AI-generated educational clinical content.
@@ -101,11 +103,12 @@ python3 src/halluscore_calculator.py --csv datasets/annotated_examples.csv
 
 If you use this framework, please cite:
 
-Douglas Henrique Duarte. MedEd-HalluScore: A Practical Framework for Evaluating Hallucination and Educational Safety Risks in LLM-Generated Clinical Cases. Version 0.1.0.
+Douglas Henrique Duarte. MedEd-HalluScore: A Practical Framework for Evaluating Hallucination and Educational Safety Risks in LLM-Generated Clinical Cases. Version 0.1.1.
+
+DOI: [10.5281/zenodo.20100688](https://doi.org/10.5281/zenodo.20100688)
 
 See [CITATION.cff](CITATION.cff) for machine-readable citation metadata.
 
 ## License
 
 This project is released under the MIT License. See [LICENSE](LICENSE).
-
