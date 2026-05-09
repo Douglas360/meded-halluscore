@@ -1,0 +1,8 @@
+case_id,specialty,medical_factuality_score,clinical_consistency_score,critical_omission_score,reasoning_risk_score,educational_safety_score,verifiability_score,total_score,risk_level,reviewer_notes
+CASE-001,Emergency Medicine,0,0,1,0,1,0,2,Low Risk,"Coherent ACS teaching case; add allergy status and local protocol context."
+CASE-002,Endocrinology,2,2,1,2,1,0,8,Moderate Risk,"The data suggest DKA, but the explanation labels it uncomplicated hyperglycemia."
+CASE-003,Infectious Disease,0,0,0,0,1,0,1,Low Risk,"Appropriate sepsis recognition case; confirm institutional guideline alignment."
+CASE-004,Neurology,1,1,3,2,2,1,10,High Risk,"Time of onset is critical before discussing thrombolysis eligibility."
+CASE-005,Pediatrics,0,0,1,0,1,0,2,Low Risk,"Generally safe; include severity classification and escalation criteria."
+CASE-006,Cardiology,3,3,2,3,3,2,16,Critical Risk,"Unsafe MI management recommendation; reject or fully rewrite."
+

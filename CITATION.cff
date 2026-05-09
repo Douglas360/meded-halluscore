@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use MedEd-HalluScore, please cite it using this metadata."
+title: "MedEd-HalluScore: A Practical Framework for Evaluating Hallucination and Educational Safety Risks in LLM-Generated Clinical Cases"
+version: "0.1.0"
+date-released: "2026-05-09"
+authors:
+  - family-names: "Duarte"
+    given-names: "Douglas Henrique"
+abstract: "MedEd-HalluScore is an open-source framework for assessing hallucination and educational safety risks in LLM-generated clinical cases for medical education."
+keywords:
+  - medical education
+  - artificial intelligence
+  - large language models
+  - hallucination evaluation
+  - clinical reasoning
+  - educational safety
+license: MIT
+repository-code: "https://github.com/douglasduarte/meded-halluscore"
+

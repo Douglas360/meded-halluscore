@@ -1,0 +1,8 @@
+case_id,specialty,prompt,llm_output,model,generation_date
+CASE-001,Emergency Medicine,"Create a teaching case about chest pain for medical students.","A 58-year-old man has crushing substernal chest pain radiating to the left arm. The case asks learners to consider acute coronary syndrome and includes ECG and troponin interpretation.","Example LLM","2026-05-09"
+CASE-002,Endocrinology,"Create a teaching case about diabetic ketoacidosis.","A 21-year-old patient with type 1 diabetes has abdominal pain, vomiting, glucose 420 mg/dL, ketones, and metabolic acidosis. The explanation incorrectly labels it uncomplicated hyperglycemia.","Example LLM","2026-05-09"
+CASE-003,Infectious Disease,"Create a teaching case about sepsis.","A 72-year-old patient has fever, hypotension, confusion, suspected pneumonia, and elevated lactate. The case discusses early recognition and urgent treatment.","Example LLM","2026-05-09"
+CASE-004,Neurology,"Create a teaching case about acute stroke.","A 66-year-old woman has sudden right-sided weakness and aphasia. The output omits time of symptom onset but recommends considering thrombolysis.","Example LLM","2026-05-09"
+CASE-005,Pediatrics,"Create a teaching case about pediatric asthma.","A 9-year-old child has wheezing and respiratory distress. The case includes oxygen saturation and response to bronchodilator therapy.","Example LLM","2026-05-09"
+CASE-006,Cardiology,"Create a teaching case about myocardial infarction.","A 61-year-old man has ST elevations and elevated troponin. The output incorrectly says oral antibiotics are first-line treatment.","Example LLM","2026-05-09"
+
