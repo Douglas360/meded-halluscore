@@ -11,7 +11,7 @@ MedEd-HalluScore is a structured review framework, not a substitute for clinical
 
 ## Evidence Limits
 
-Version 0.1.0 is an initial framework. The sample dataset is illustrative and should not be treated as a validated benchmark.
+The current sample dataset is illustrative and should not yet be treated as a validated benchmark. The sample dataset is illustrative and should not be treated as a validated benchmark.
 
 Future work should evaluate:
 
