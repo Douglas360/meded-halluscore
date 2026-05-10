@@ -8,7 +8,7 @@ The framework provides a practical rubric, reviewer templates, downloadable user
 
 ## Public Access
 
-- Website: https://douglas360.github.io/meded-halluscore/
+- Website and interactive calculator: https://douglas360.github.io/meded-halluscore/
 - User Guide: [materials/MedEd-HalluScore_User_Guide_v0.2.pdf](materials/MedEd-HalluScore_User_Guide_v0.2.pdf)
 - Excel Template: [materials/MedEd-HalluScore_Evaluation_Template_v0.2.xlsx](materials/MedEd-HalluScore_Evaluation_Template_v0.2.xlsx)
 - Rubric and Checklist: [materials/MedEd-HalluScore_Rubric_Checklist_v0.2.pdf](materials/MedEd-HalluScore_Rubric_Checklist_v0.2.pdf)
@@ -62,6 +62,7 @@ It is not intended for clinical diagnosis, treatment, triage, patient management
 ├── CITATION.cff
 ├── index.html
 ├── assets/
+│   ├── calculator.js
 │   ├── clinical-review-visual.png
 │   └── styles.css
 ├── materials/

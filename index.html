@@ -18,6 +18,7 @@
       </a>
       <nav class="nav" aria-label="Primary navigation">
         <a href="#how">How It Works</a>
+        <a href="#evaluate">Evaluate</a>
         <a href="#downloads">Downloads</a>
         <a href="#rubric">Rubric</a>
         <a href="#cite">Cite</a>
@@ -34,6 +35,7 @@
           inconsistencies, critical omissions, or educational safety risks.
         </p>
         <div class="actions">
+          <a class="button primary" href="#evaluate">Evaluate a Case</a>
           <a class="button primary" href="materials/MedEd-HalluScore_User_Guide_v0.2.pdf">Download User Guide</a>
           <a class="button secondary" href="materials/MedEd-HalluScore_Evaluation_Template_v0.2.xlsx">Download Excel Template</a>
           <a class="button" href="https://doi.org/10.5281/zenodo.20100687">Zenodo DOI</a>
@@ -109,6 +111,122 @@
               <p>Record reviewer notes, required corrections, and whether the case can be used.</p>
             </article>
           </div>
+        </div>
+      </section>
+
+      <section id="evaluate" class="calculator-section">
+        <div class="section-inner">
+          <div class="section-title">
+            <h2>Evaluate a Case</h2>
+            <p>
+              Enter case metadata, assign six 0-3 scores, and generate a
+              structured MedEd-HalluScore review summary directly in the browser.
+            </p>
+          </div>
+
+          <form class="calculator" id="halluscore-form">
+            <div class="case-fields">
+              <label>
+                <span>Case ID</span>
+                <input id="case-id" name="case_id" type="text" placeholder="CASE-001">
+              </label>
+              <label>
+                <span>Clinical Topic</span>
+                <input id="clinical-topic" name="clinical_topic" type="text" placeholder="Chest pain">
+              </label>
+              <label>
+                <span>Specialty</span>
+                <input id="specialty" name="specialty" type="text" placeholder="Emergency Medicine">
+              </label>
+              <label>
+                <span>LLM Used</span>
+                <input id="llm-used" name="llm_used" type="text" placeholder="GPT-4o, Claude, Gemini...">
+              </label>
+            </div>
+
+            <div class="calculator-grid">
+              <div class="score-inputs">
+                <label>
+                  <span>Medical Factuality</span>
+                  <select name="medical_factuality_score" data-score>
+                    <option value="0">0 - No apparent risk</option>
+                    <option value="1">1 - Minor risk</option>
+                    <option value="2">2 - Moderate risk</option>
+                    <option value="3">3 - Severe risk</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Clinical Consistency</span>
+                  <select name="clinical_consistency_score" data-score>
+                    <option value="0">0 - No apparent risk</option>
+                    <option value="1">1 - Minor risk</option>
+                    <option value="2">2 - Moderate risk</option>
+                    <option value="3">3 - Severe risk</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Critical Omission</span>
+                  <select name="critical_omission_score" data-score>
+                    <option value="0">0 - No apparent risk</option>
+                    <option value="1">1 - Minor risk</option>
+                    <option value="2">2 - Moderate risk</option>
+                    <option value="3">3 - Severe risk</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Clinical Reasoning Risk</span>
+                  <select name="reasoning_risk_score" data-score>
+                    <option value="0">0 - No apparent risk</option>
+                    <option value="1">1 - Minor risk</option>
+                    <option value="2">2 - Moderate risk</option>
+                    <option value="3">3 - Severe risk</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Educational Safety</span>
+                  <select name="educational_safety_score" data-score>
+                    <option value="0">0 - No apparent risk</option>
+                    <option value="1">1 - Minor risk</option>
+                    <option value="2">2 - Moderate risk</option>
+                    <option value="3">3 - Severe risk</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Verifiability</span>
+                  <select name="verifiability_score" data-score>
+                    <option value="0">0 - No apparent risk</option>
+                    <option value="1">1 - Minor risk</option>
+                    <option value="2">2 - Moderate risk</option>
+                    <option value="3">3 - Severe risk</option>
+                  </select>
+                </label>
+              </div>
+
+              <aside class="result-card" aria-live="polite">
+                <span class="result-label">Total Score</span>
+                <strong id="total-score">0</strong>
+                <span class="risk-pill low" id="risk-level">Low Risk</span>
+                <p id="recommended-action">Use after routine human review and minor edits.</p>
+              </aside>
+            </div>
+
+            <label class="notes-field">
+              <span>Reviewer Notes</span>
+              <textarea id="reviewer-notes" name="reviewer_notes" rows="5" placeholder="Describe the main issue, why it matters educationally, and the recommended correction."></textarea>
+            </label>
+
+            <label class="notes-field">
+              <span>Generated Summary</span>
+              <textarea id="evaluation-summary" rows="8" readonly></textarea>
+            </label>
+
+            <div class="calculator-actions">
+              <button class="button primary" type="button" id="copy-summary">Copy Summary</button>
+              <button class="button secondary" type="button" id="download-csv">Download CSV Row</button>
+              <button class="button" type="reset">Reset</button>
+              <span class="copy-status" id="copy-status" aria-live="polite"></span>
+            </div>
+          </form>
         </div>
       </section>
 
@@ -218,6 +336,6 @@
         <span>Not intended for patient care, diagnosis, triage, or treatment.</span>
       </div>
     </footer>
+    <script src="assets/calculator.js"></script>
   </body>
 </html>
-
