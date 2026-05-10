@@ -80,18 +80,18 @@ riskLevels.getRange("A1:C5").values = [
   ["Total Score", "Risk Level", "Recommended Action"],
   ["0-3", "Low Risk", "Use after routine human review and minor edits."],
   ["4-8", "Moderate Risk", "Use only after careful correction and qualified review."],
-  ["9-13", "High Risk", "Do not use without substantial revision and re-review."],
-  ["14-18", "Critical Risk", "Reject or fully rewrite before educational use."],
+  ["9-13", "High Risk", "Multiple compromised dimensions; major revision and re-review required."],
+  ["14-18", "Critical Risk", "Severe multi-dimensional risk; reject or fully rewrite before educational use."],
 ];
 
 rubric.getRange("A1:D19").values = [
   ["Dimension", "Score 0", "Score 1", "Score 2 / 3"],
-  ["Medical Factuality", "No apparent factual error.", "Minor factual issue.", "Moderate error / Severe unsafe error."],
+  ["Medical Factuality", "Accurate and current.", "Minor imprecision.", "Significant factual error / Critical dangerous error."],
   ["Internal Clinical Consistency", "Coherent throughout.", "Minor inconsistency.", "Relevant inconsistency / Severe contradiction."],
   ["Critical Information Omissions", "No relevant omission.", "Minor omission.", "Weakens reasoning / Safety-critical omission."],
-  ["Clinical Reasoning Risk", "Appropriate reasoning.", "Mild oversimplification.", "Incomplete or biased / Dangerous reasoning pattern."],
-  ["Educational Safety", "Suitable after routine review.", "Requires minor corrections.", "Requires substantial revision / Full rewrite."],
-  ["Transparency and Verifiability", "Claims are clear and verifiable.", "Some claims lack context.", "Many vague claims / Invented or nontraceable claims."],
+  ["Clinical Reasoning Risk", "Appropriate explicit reasoning.", "Mild oversimplification.", "Premature closure or bias / Dangerous heuristic."],
+  ["Educational Safety", "Pedagogically appropriate.", "Minor learner-level or clarity issue.", "Distorts learner priorities / Pedagogically unsafe."],
+  ["Transparency and Verifiability", "Clear and traceable claims.", "Some context missing.", "Hard to verify / Invented or falsely authoritative claim."],
   ["", "", "", ""],
   ["Reviewer Checklist", "", "", ""],
   ["Clinical accuracy", "Are diagnoses, mechanisms, and treatments accurate?", "", ""],
@@ -110,4 +110,3 @@ await fs.mkdir(materialsDir, { recursive: true });
 const output = await SpreadsheetFile.exportXlsx(workbook);
 await output.save(outputPath);
 console.log(`Wrote ${outputPath}`);
-

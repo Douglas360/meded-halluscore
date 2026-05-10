@@ -4,7 +4,7 @@
 
 Author: Douglas Henrique Duarte
 
-Version: 0.2.1
+Version: 0.2.2
 
 Date: 2026-05-10
 

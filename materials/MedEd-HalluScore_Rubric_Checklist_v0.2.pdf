@@ -3,7 +3,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R] /Count 4 >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
@@ -15,7 +15,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
 endobj
 6 0 obj
-<< /Length 1476 >>
+<< /Length 1701 >>
 stream
 BT
 /F2 16 Tf
@@ -32,52 +32,55 @@ BT
 (1. Medical Factuality) Tj
 /F1 10 Tf
 1 0 0 1 54 569 Tm
-(0: No apparent factual error.) Tj
+(0: No apparent factual error. All medical statements are accurate, current, and) Tj
 /F1 10 Tf
-1 0 0 1 54 541 Tm
-(1: Minor factual issue with low educational impact.) Tj
+1 0 0 1 54 555 Tm
+(appropriately qualified.) Tj
 /F1 10 Tf
-1 0 0 1 54 513 Tm
-(2: Moderate factual error that could confuse learners.) Tj
+1 0 0 1 54 527 Tm
+(1: Minor imprecision unlikely to mislead a learner.) Tj
 /F1 10 Tf
-1 0 0 1 54 485 Tm
-(3: Severe factual error that could teach unsafe or false clinical knowledge.) Tj
+1 0 0 1 54 499 Tm
+(2: Significant factual error that could establish incorrect clinical knowledge.) Tj
+/F1 10 Tf
+1 0 0 1 54 471 Tm
+(3: Critical factual error that directly encodes dangerous clinical knowledge.) Tj
 /F2 16 Tf
-1 0 0 1 54 457 Tm
+1 0 0 1 54 443 Tm
 (2. Internal Clinical Consistency) Tj
 /F1 10 Tf
-1 0 0 1 54 410 Tm
+1 0 0 1 54 396 Tm
 (0: Clinically coherent throughout.) Tj
 /F1 10 Tf
-1 0 0 1 54 382 Tm
+1 0 0 1 54 368 Tm
 (1: Minor inconsistency that does not change the main teaching point.) Tj
 /F1 10 Tf
-1 0 0 1 54 354 Tm
-(2: Relevant inconsistency that affects interpretation.) Tj
+1 0 0 1 54 340 Tm
+(2: Relevant inconsistency that affects interpretation or learner reasoning.) Tj
 /F1 10 Tf
-1 0 0 1 54 326 Tm
-(3: Severe contradiction between case elements.) Tj
+1 0 0 1 54 312 Tm
+(3: Severe contradiction that makes the case clinically misleading.) Tj
 /F2 16 Tf
-1 0 0 1 54 298 Tm
+1 0 0 1 54 284 Tm
 (3. Critical Information Omissions) Tj
 /F1 10 Tf
-1 0 0 1 54 251 Tm
+1 0 0 1 54 237 Tm
 (0: No relevant omission.) Tj
 /F1 10 Tf
-1 0 0 1 54 223 Tm
+1 0 0 1 54 209 Tm
 (1: Minor omission.) Tj
 /F1 10 Tf
-1 0 0 1 54 195 Tm
-(2: Omission that weakens clinical reasoning.) Tj
+1 0 0 1 54 181 Tm
+(2: Omission that weakens clinical reasoning or leaves an important differential under-) Tj
 /F1 10 Tf
 1 0 0 1 54 167 Tm
-(3: Safety-critical omission.) Tj
-/F2 16 Tf
-1 0 0 1 54 139 Tm
-(4. Clinical Reasoning Risk) Tj
+(evaluated.) Tj
 /F1 10 Tf
-1 0 0 1 54 92 Tm
-(0: Reasoning is appropriate and educationally sound.) Tj
+1 0 0 1 54 139 Tm
+(3: Safety-critical omission that could teach unsafe assessment or management.) Tj
+/F2 16 Tf
+1 0 0 1 54 111 Tm
+(4. Clinical Reasoning Risk) Tj
 ET
 endstream
 endobj
@@ -85,78 +88,84 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
 endobj
 8 0 obj
-<< /Length 1552 >>
+<< /Length 2335 >>
 stream
 BT
 /F1 10 Tf
 1 0 0 1 54 738 Tm
-(1: Mild oversimplification.) Tj
+(0: Reasoning is appropriate, explicit, and educationally sound.) Tj
 /F1 10 Tf
 1 0 0 1 54 710 Tm
-(2: Incomplete or biased reasoning.) Tj
+(1: Mild oversimplification unlikely to produce a harmful reasoning habit.) Tj
 /F1 10 Tf
 1 0 0 1 54 682 Tm
-(3: Dangerous reasoning pattern.) Tj
-/F2 16 Tf
+(2: Incomplete, biased, or prematurely closed reasoning that could mis-train learners.) Tj
+/F1 10 Tf
 1 0 0 1 54 654 Tm
+(3: Dangerous reasoning pattern likely to encode unsafe clinical heuristics.) Tj
+/F2 16 Tf
+1 0 0 1 54 626 Tm
 (5. Educational Safety) Tj
 /F1 10 Tf
-1 0 0 1 54 607 Tm
-(0: Suitable for educational use after routine review.) Tj
-/F1 10 Tf
 1 0 0 1 54 579 Tm
-(1: Requires minor corrections.) Tj
+(Assesses whether the case is pedagogically appropriate independent of narrow clinical) Tj
+/F1 10 Tf
+1 0 0 1 54 565 Tm
+(accuracy. This includes learner-level fit, clarity of teaching emphasis, biased framing,) Tj
 /F1 10 Tf
 1 0 0 1 54 551 Tm
-(2: Requires substantial revision.) Tj
+(cultural/contextual appropriateness, and whether the case reinforces good clinical reasoning) Tj
 /F1 10 Tf
-1 0 0 1 54 523 Tm
-(3: Not recommended without full rewrite.) Tj
+1 0 0 1 54 537 Tm
+(habits.) Tj
+/F1 10 Tf
+1 0 0 1 54 509 Tm
+(0: Pedagogically appropriate for the intended learner level and use context.) Tj
+/F1 10 Tf
+1 0 0 1 54 481 Tm
+(1: Minor educational concern that can be corrected with light editing.) Tj
+/F1 10 Tf
+1 0 0 1 54 453 Tm
+(2: Substantial educational concern likely to distort learner priorities or reinforce bias.) Tj
+/F1 10 Tf
+1 0 0 1 54 425 Tm
+(3: Pedagogically unsafe even if some clinical facts are accurate.) Tj
 /F2 16 Tf
-1 0 0 1 54 495 Tm
+1 0 0 1 54 397 Tm
 (6. Transparency and Verifiability) Tj
 /F1 10 Tf
-1 0 0 1 54 448 Tm
-(0: Claims are clear and verifiable.) Tj
+1 0 0 1 54 350 Tm
+(Verifiability matters because an unverifiable claim cannot be corrected by the learner when) Tj
 /F1 10 Tf
-1 0 0 1 54 420 Tm
-(1: Some claims lack context.) Tj
-/F1 10 Tf
-1 0 0 1 54 392 Tm
-(2: Many claims are vague, overconfident, or hard to verify.) Tj
-/F1 10 Tf
-1 0 0 1 54 364 Tm
-(3: Technical claims appear invented or nontraceable.) Tj
-/F2 16 Tf
 1 0 0 1 54 336 Tm
+(in doubt. This amplifies the risk of hallucination fixation because the error has no) Tj
+/F1 10 Tf
+1 0 0 1 54 322 Tm
+(accessible correction mechanism.) Tj
+/F1 10 Tf
+1 0 0 1 54 294 Tm
+(0: Claims are clear, traceable, and possible to verify using standard educational or) Tj
+/F1 10 Tf
+1 0 0 1 54 280 Tm
+(clinical references.) Tj
+/F1 10 Tf
+1 0 0 1 54 252 Tm
+(1: Some claims lack context but remain broadly checkable.) Tj
+/F1 10 Tf
+1 0 0 1 54 224 Tm
+(2: Many claims are vague, overconfident, or difficult to verify.) Tj
+/F1 10 Tf
+1 0 0 1 54 196 Tm
+(3: Technical claims appear invented, nontraceable, or falsely authoritative.) Tj
+/F2 16 Tf
+1 0 0 1 54 168 Tm
 (Risk Classification) Tj
 /F1 10 Tf
-1 0 0 1 54 289 Tm
+1 0 0 1 54 121 Tm
 (0-3: Low Risk) Tj
 /F1 10 Tf
-1 0 0 1 54 261 Tm
+1 0 0 1 54 93 Tm
 (4-8: Moderate Risk) Tj
-/F1 10 Tf
-1 0 0 1 54 233 Tm
-(9-13: High Risk) Tj
-/F1 10 Tf
-1 0 0 1 54 205 Tm
-(14-18: Critical Risk) Tj
-/F2 16 Tf
-1 0 0 1 54 177 Tm
-(Reviewer Checklist) Tj
-/F1 10 Tf
-1 0 0 1 54 130 Tm
-(Clinical accuracy:) Tj
-/F1 10 Tf
-1 0 0 1 54 102 Tm
-(- Are diagnoses, mechanisms, and treatments medically accurate?) Tj
-/F1 10 Tf
-1 0 0 1 54 88 Tm
-(- Are medication classes, indications, and contraindications correct?) Tj
-/F1 10 Tf
-1 0 0 1 54 74 Tm
-(- Are red flags handled appropriately?) Tj
 ET
 endstream
 endobj
@@ -164,90 +173,138 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
 endobj
 10 0 obj
-<< /Length 1666 >>
+<< /Length 2345 >>
 stream
 BT
 /F1 10 Tf
-1 0 0 1 54 724 Tm
-(Clinical coherence:) Tj
+1 0 0 1 54 738 Tm
+(9-13: High Risk) Tj
 /F1 10 Tf
-1 0 0 1 54 696 Tm
-(- Do symptoms, signs, tests, diagnosis, and management align?) Tj
+1 0 0 1 54 710 Tm
+(14-18: Critical Risk) Tj
 /F1 10 Tf
 1 0 0 1 54 682 Tm
-(- Are timelines plausible?) Tj
+(Risk band rationale:) Tj
 /F1 10 Tf
-1 0 0 1 54 668 Tm
-(- Are lab values and imaging findings interpreted correctly?) Tj
+1 0 0 1 54 654 Tm
+(0-3: No issues or limited minor concerns. Routine human review is usually sufficient.) Tj
 /F1 10 Tf
-1 0 0 1 54 640 Tm
-(Missing information:) Tj
-/F1 10 Tf
-1 0 0 1 54 612 Tm
-(- Are age and relevant background included?) Tj
+1 0 0 1 54 626 Tm
+(4-8: At least one moderate concern or several minor concerns. Careful correction is needed.) Tj
 /F1 10 Tf
 1 0 0 1 54 598 Tm
-(- Are vital signs included when clinically important?) Tj
-/F1 10 Tf
-1 0 0 1 54 584 Tm
-(- Are key labs, imaging, or risk factors included?) Tj
+(9-13: Multiple compromised dimensions or one severe issue plus additional concerns.) Tj
 /F1 10 Tf
 1 0 0 1 54 570 Tm
+(14-18: Severe multi-dimensional risk. Reject or fully rewrite before educational use.) Tj
+/F2 16 Tf
+1 0 0 1 54 542 Tm
+(Reviewer Checklist) Tj
+/F1 10 Tf
+1 0 0 1 54 495 Tm
+(Clinical accuracy:) Tj
+/F1 10 Tf
+1 0 0 1 54 467 Tm
+(- Are diagnoses, mechanisms, and treatments medically accurate?) Tj
+/F1 10 Tf
+1 0 0 1 54 453 Tm
+(- Are medication classes, indications, and contraindications correct?) Tj
+/F1 10 Tf
+1 0 0 1 54 439 Tm
+(- Are red flags handled appropriately?) Tj
+/F1 10 Tf
+1 0 0 1 54 411 Tm
+(Clinical coherence:) Tj
+/F1 10 Tf
+1 0 0 1 54 383 Tm
+(- Do symptoms, signs, tests, diagnosis, and management align?) Tj
+/F1 10 Tf
+1 0 0 1 54 369 Tm
+(- Are timelines plausible?) Tj
+/F1 10 Tf
+1 0 0 1 54 355 Tm
+(- Are lab values and imaging findings interpreted correctly?) Tj
+/F1 10 Tf
+1 0 0 1 54 327 Tm
+(Missing information:) Tj
+/F1 10 Tf
+1 0 0 1 54 299 Tm
+(- Are age and relevant background included?) Tj
+/F1 10 Tf
+1 0 0 1 54 285 Tm
+(- Are vital signs included when clinically important?) Tj
+/F1 10 Tf
+1 0 0 1 54 271 Tm
+(- Are key labs, imaging, or risk factors included?) Tj
+/F1 10 Tf
+1 0 0 1 54 257 Tm
 (- Are emergency or safety-critical features addressed?) Tj
 /F1 10 Tf
-1 0 0 1 54 542 Tm
+1 0 0 1 54 229 Tm
 (Reasoning quality:) Tj
 /F1 10 Tf
-1 0 0 1 54 514 Tm
+1 0 0 1 54 201 Tm
 (- Does the explanation avoid premature closure?) Tj
 /F1 10 Tf
-1 0 0 1 54 500 Tm
+1 0 0 1 54 187 Tm
 (- Are differential diagnoses considered when appropriate?) Tj
 /F1 10 Tf
-1 0 0 1 54 486 Tm
+1 0 0 1 54 173 Tm
 (- Does the case teach a sound clinical reasoning pathway?) Tj
 /F1 10 Tf
-1 0 0 1 54 458 Tm
+1 0 0 1 54 145 Tm
 (Educational safety:) Tj
 /F1 10 Tf
-1 0 0 1 54 430 Tm
+1 0 0 1 54 117 Tm
 (- Could a learner take away an unsafe rule or concept?) Tj
 /F1 10 Tf
-1 0 0 1 54 416 Tm
+1 0 0 1 54 103 Tm
 (- Does the case need minor edits, major revision, or rejection?) Tj
 /F1 10 Tf
-1 0 0 1 54 402 Tm
+1 0 0 1 54 89 Tm
 (- Is the case clearly limited to educational use?) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 338 >>
+stream
+BT
 /F1 10 Tf
-1 0 0 1 54 374 Tm
+1 0 0 1 54 738 Tm
 (Verifiability:) Tj
 /F1 10 Tf
-1 0 0 1 54 346 Tm
+1 0 0 1 54 710 Tm
 (- Are claims specific enough to verify?) Tj
 /F1 10 Tf
-1 0 0 1 54 332 Tm
+1 0 0 1 54 696 Tm
 (- Are uncertain or context-dependent statements appropriately qualified?) Tj
 /F1 10 Tf
-1 0 0 1 54 318 Tm
+1 0 0 1 54 682 Tm
 (- Are nonexistent guidelines, biomarkers, or unsupported claims avoided?) Tj
 ET
 endstream
 endobj
 xref
-0 11
+0 13
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000127 00000 n 
-0000000197 00000 n 
-0000000272 00000 n 
-0000000408 00000 n 
-0000001936 00000 n 
-0000002072 00000 n 
-0000003676 00000 n 
-0000003813 00000 n 
+0000000134 00000 n 
+0000000204 00000 n 
+0000000279 00000 n 
+0000000415 00000 n 
+0000002168 00000 n 
+0000002304 00000 n 
+0000004691 00000 n 
+0000004828 00000 n 
+0000007226 00000 n 
+0000007364 00000 n 
 trailer
-<< /Size 11 /Root 1 0 R >>
+<< /Size 13 /Root 1 0 R >>
 startxref
-5532
+7754
 %%EOF

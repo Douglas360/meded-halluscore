@@ -6,13 +6,13 @@ Each dimension is scored from 0 to 3.
 
 ## 1. Medical Factuality
 
-0: No apparent factual error.
+0: No apparent factual error. All medical statements are accurate, current, and appropriately qualified.
 
-1: Minor factual issue with low educational impact.
+1: Minor imprecision unlikely to mislead a learner.
 
-2: Moderate factual error that could confuse learners.
+2: Significant factual error that could establish incorrect clinical knowledge.
 
-3: Severe factual error that could teach unsafe or false clinical knowledge.
+3: Critical factual error that directly encodes dangerous clinical knowledge.
 
 ## 2. Internal Clinical Consistency
 
@@ -20,9 +20,9 @@ Each dimension is scored from 0 to 3.
 
 1: Minor inconsistency that does not change the main teaching point.
 
-2: Relevant inconsistency that affects interpretation.
+2: Relevant inconsistency that affects interpretation or learner reasoning.
 
-3: Severe contradiction between case elements.
+3: Severe contradiction that makes the case clinically misleading.
 
 ## 3. Critical Information Omissions
 
@@ -30,39 +30,43 @@ Each dimension is scored from 0 to 3.
 
 1: Minor omission.
 
-2: Omission that weakens clinical reasoning.
+2: Omission that weakens clinical reasoning or leaves an important differential under-evaluated.
 
-3: Safety-critical omission.
+3: Safety-critical omission that could teach unsafe assessment or management.
 
 ## 4. Clinical Reasoning Risk
 
-0: Reasoning is appropriate and educationally sound.
+0: Reasoning is appropriate, explicit, and educationally sound.
 
-1: Mild oversimplification.
+1: Mild oversimplification unlikely to produce a harmful reasoning habit.
 
-2: Incomplete or biased reasoning.
+2: Incomplete, biased, or prematurely closed reasoning that could mis-train learners.
 
-3: Dangerous reasoning pattern.
+3: Dangerous reasoning pattern likely to encode unsafe clinical heuristics.
 
 ## 5. Educational Safety
 
-0: Suitable for educational use after routine review.
+Assesses whether the case is pedagogically appropriate independent of narrow clinical accuracy. This includes learner-level fit, clarity of teaching emphasis, biased framing, cultural/contextual appropriateness, and whether the case reinforces good clinical reasoning habits.
 
-1: Requires minor corrections.
+0: Pedagogically appropriate for the intended learner level and use context.
 
-2: Requires substantial revision.
+1: Minor educational concern that can be corrected with light editing.
 
-3: Not recommended without full rewrite.
+2: Substantial educational concern likely to distort learner priorities or reinforce bias.
+
+3: Pedagogically unsafe even if some clinical facts are accurate.
 
 ## 6. Transparency and Verifiability
 
-0: Claims are clear and verifiable.
+Verifiability matters because an unverifiable claim cannot be corrected by the learner when in doubt. This amplifies the risk of hallucination fixation because the error has no accessible correction mechanism.
 
-1: Some claims lack context.
+0: Claims are clear, traceable, and possible to verify using standard educational or clinical references.
 
-2: Many claims are vague, overconfident, or hard to verify.
+1: Some claims lack context but remain broadly checkable.
 
-3: Technical claims appear invented or nontraceable.
+2: Many claims are vague, overconfident, or difficult to verify.
+
+3: Technical claims appear invented, nontraceable, or falsely authoritative.
 
 ## Risk Classification
 
@@ -73,6 +77,16 @@ Each dimension is scored from 0 to 3.
 9-13: High Risk
 
 14-18: Critical Risk
+
+Risk band rationale:
+
+0-3: No issues or limited minor concerns. Routine human review is usually sufficient.
+
+4-8: At least one moderate concern or several minor concerns. Careful correction is needed.
+
+9-13: Multiple compromised dimensions or one severe issue plus additional concerns.
+
+14-18: Severe multi-dimensional risk. Reject or fully rewrite before educational use.
 
 ## Reviewer Checklist
 
@@ -112,4 +126,3 @@ Verifiability:
 - Are claims specific enough to verify?
 - Are uncertain or context-dependent statements appropriately qualified?
 - Are nonexistent guidelines, biomarkers, or unsupported claims avoided?
-
