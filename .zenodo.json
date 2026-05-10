@@ -1,0 +1,28 @@
+{
+  "title": "MedEd-HalluScore: A Practical Framework for Evaluating Hallucination and Educational Safety Risks in LLM-Generated Clinical Cases",
+  "upload_type": "software",
+  "description": "MedEd-HalluScore is an open-source framework and web-based calculator for assessing hallucination and educational safety risks in LLM-generated clinical cases for medical education.",
+  "creators": [
+    {
+      "name": "Duarte, Douglas Henrique"
+    }
+  ],
+  "keywords": [
+    "medical education",
+    "artificial intelligence",
+    "large language models",
+    "hallucination evaluation",
+    "clinical reasoning",
+    "educational safety"
+  ],
+  "license": "MIT",
+  "related_identifiers": [
+    {
+      "identifier": "https://douglas360.github.io/meded-halluscore/",
+      "relation": "isDocumentedBy",
+      "scheme": "url",
+      "resource_type": "other"
+    }
+  ]
+}
+

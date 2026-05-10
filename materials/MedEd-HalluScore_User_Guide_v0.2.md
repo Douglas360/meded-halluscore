@@ -1,10 +1,12 @@
-# MedEd-HalluScore User Guide v0.2
+# MedEd-HalluScore User Guide v0.2.1
 
 ## A practical guide for reviewing LLM-generated clinical cases
 
 Author: Douglas Henrique Duarte
 
 DOI: 10.5281/zenodo.20100687
+
+Website and calculator: https://douglas360.github.io/meded-halluscore/
 
 ## 1. What Is MedEd-HalluScore?
 
@@ -131,7 +133,17 @@ Reviewer note: The case teaches unsafe recognition and management of possible ac
 5. The workbook calculates total score and risk level automatically.
 6. Add reviewer notes and final decision.
 
-## 10. Citation
+## 10. How To Use the Web Calculator
 
-Douglas Henrique Duarte. MedEd-HalluScore: A Practical Framework for Evaluating Hallucination and Educational Safety Risks in LLM-Generated Clinical Cases. Version 0.2.0. DOI: 10.5281/zenodo.20100687
+1. Open https://douglas360.github.io/meded-halluscore/#evaluate.
+2. Enter case metadata such as Case ID, topic, specialty, and LLM used.
+3. Select a score from 0 to 3 for each of the six dimensions.
+4. Review the automatically calculated total score, risk level, and recommended action.
+5. Add reviewer notes.
+6. Copy the generated evaluation summary or download the CSV row.
 
+The web calculator runs locally in the browser. It is intended to support documentation of a human review, not to replace expert judgment.
+
+## 11. Citation
+
+Douglas Henrique Duarte. MedEd-HalluScore: A Practical Framework for Evaluating Hallucination and Educational Safety Risks in LLM-Generated Clinical Cases. Version 0.2.1. DOI: 10.5281/zenodo.20100687

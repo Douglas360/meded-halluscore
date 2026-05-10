@@ -124,7 +124,7 @@ python3 src/halluscore_calculator.py --csv datasets/annotated_examples.csv
 
 If you use this framework, please cite:
 
-Douglas Henrique Duarte. MedEd-HalluScore: A Practical Framework for Evaluating Hallucination and Educational Safety Risks in LLM-Generated Clinical Cases. Version 0.2.0.
+Douglas Henrique Duarte. MedEd-HalluScore: A Practical Framework for Evaluating Hallucination and Educational Safety Risks in LLM-Generated Clinical Cases. Version 0.2.1.
 
 DOI: [10.5281/zenodo.20100687](https://doi.org/10.5281/zenodo.20100687)
 
