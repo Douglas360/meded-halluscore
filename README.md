@@ -82,7 +82,8 @@ It is not intended for clinical diagnosis, treatment, triage, patient management
 │   ├── evaluator_form.md
 │   └── reviewer_checklist.md
 ├── src/
-│   └── halluscore_calculator.py
+│   ├── halluscore_calculator.py
+│   └── case_generator.py
 ├── tools/
 │   ├── build_evaluation_template.mjs
 │   ├── render_materials_pdf.py
@@ -112,9 +113,40 @@ You can also score a CSV file:
 python3 src/halluscore_calculator.py --csv datasets/annotated_examples.csv
 ```
 
+## Case Generation
+
+The repository includes a multi-model case generation engine (`src/case_generator.py`) that can produce synthetic clinical cases across 12 medical specialties using four LLMs. This is the generation pipeline described in:
+
+> Duarte, D.H. "Generative AI Framework for Dynamic Clinical Case Synthesis: Enhancing Diagnostic Reasoning in Medical Education." Submitted to JMIR AI, 2026.
+
+### Setup
+
+```bash
+pip install openai anthropic google-generativeai groq
+```
+
+Set API keys for the models you intend to use:
+
+```bash
+export OPENAI_API_KEY="sk-..."
+export ANTHROPIC_API_KEY="sk-ant-..."
+export GEMINI_API_KEY="..."
+export GROQ_API_KEY="gsk_..."
+```
+
+### Run
+
+```bash
+python3 src/case_generator.py
+```
+
+This generates 576 cases (4 models × 12 specialties × 2 prompting conditions × 6 cases) organized in a hierarchical directory structure. The script supports automatic retry on API failures and skips already-generated cases, allowing interrupted sessions to resume.
+
+**Important:** All generated cases should be evaluated using the MedEd-HalluScore safety rubric before educational use.
+
 ## Minimum Review Workflow
 
-1. Generate or collect an LLM-created clinical case.
+1. Generate or collect an LLM-created clinical case (use `src/case_generator.py` for batch generation).
 2. Remove patient identifiers and confirm the case is educational or synthetic.
 3. Have at least one qualified reviewer score all six dimensions.
 4. Record the score, risk level, reviewer notes, model used, prompt used, and generation date.
