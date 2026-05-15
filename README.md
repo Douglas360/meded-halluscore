@@ -156,7 +156,7 @@ This generates 576 cases (4 models × 12 specialties × 2 prompting conditions �
 
 If you use this framework, please cite:
 
-Douglas Henrique Duarte. MedEd-HalluScore: A Practical Framework for Evaluating Hallucination and Educational Safety Risks in LLM-Generated Clinical Cases. Version 0.2.2.
+Douglas Henrique Duarte. MedEd-HalluScore: A Practical Framework for Evaluating Hallucination and Educational Safety Risks in LLM-Generated Clinical Cases. Version 0.3.0.
 
 DOI: [10.5281/zenodo.20100687](https://doi.org/10.5281/zenodo.20100687)
 
