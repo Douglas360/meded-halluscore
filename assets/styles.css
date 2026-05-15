@@ -637,6 +637,28 @@ main section {
   color: var(--muted);
 }
 
+.ongoing-work {
+  margin-top: 24px;
+  padding: 20px 24px;
+  border-left: 4px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  background: #f0f6ff;
+}
+
+.ongoing-work h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: var(--accent);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.ongoing-work p {
+  margin: 0;
+  color: #334051;
+  line-height: 1.65;
+}
+
 .citation-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.45fr);
